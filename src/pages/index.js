@@ -159,7 +159,7 @@ const IndexPage = () => {
       </div>
         <div style={{display:"flex",alignItems:'flex-start',flexDirection:"column",justifyContent:"center"}}> 
         <h1 className={styles.titleHead}>Hey, I'm Erlangga Hidayatullah.</h1>
-        <span style={{fontWeight:"300",paddingLeft:"3px"}}className={styles.descriptionHeader}>Software Engineer and Full-stack Developer</span>
+        <span style={{fontWeight:"300",paddingLeft:"3px"}}className={styles.descriptionHeader}>Web Developer and Full-stack Developer</span>
         <TechStack/>
         </div>
       </div>
