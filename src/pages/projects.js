@@ -11,9 +11,9 @@ const LinkProject = {
     title : "Digital Reading Quran"
   },
   ytDownloader : {
-    web_url : 'https://youtdownloader.vercel.app/',
+    web_url : 'https://youtubedownload.vercel.app/',
     github : 'https://github.com/erlanggaht/ytdownloader-vercel/tree/main',
-    isi : "download youtube videos free. built with reactjs. and wait for the next display I will fix it.",
+    isi : "download youtube videos free. built with vite preact. and wait for the next display I will fix it.",
     title : "Youtube Video Download"
   },
   usersAdmin : {
