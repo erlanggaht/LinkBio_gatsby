@@ -8,7 +8,7 @@ const LinkProject = {
     web_url : 'https://bacaquran-v2.vercel.app/',
     github : 'https://github.com/erlanggaht/WebQuranV2/tree/erlanggaht',
     isi : "Let's read the Koran while in the grip of a digital gadget.",
-    title : "Digital Reading Quran"
+    title : "Digital Reading Quran",
   },
   ytDownloader : {
     web_url : 'https://youtubedownload.vercel.app/',
@@ -16,11 +16,11 @@ const LinkProject = {
     isi : "download youtube videos free. built with vite preact. and wait for the next display I will fix it.",
     title : "Youtube Video Download"
   },
-  usersAdmin : {
-    web_url : 'https://users-admin.vercel.app/',
-    github : 'https://github.com/erlanggaht/users_admin_fr_vercel/tree/erlanggaht',
-    isi : "Slicing web design is suitable for health companies or others. it's made with nextJS13 and tailwinds for the design.",
-    title : "All Kinds Of Form Styles And Frontend Validations"
+  TodoList : {
+    web_url : 'https://todo-mylist.vercel.app/',
+    github : 'https://github.com/erlanggaht/todolist.vue/',
+    isi : "Todo list application with storage features, search lists, and an attractive appearance. made with vite + vue.",
+    title : "To-Do List Application"
   },
   seblaks : {
     web_url : 'https://seblaks.vercel.app/',
@@ -43,8 +43,7 @@ return (
   </div>
     <p className={styles.textSlicing}>{props.isi}</p>
     <div style={{display:"flex",gap:"1rem",margin:'10px 0 0 0',position:"absolute",bottom:'8px'}}>
-     <StaticImage src="../images/tailwinds.svg" alt="tailwinds" height={34} width={34} />
-     <StaticImage src="../images/nextjs.svg" alt="nextjs" height={34} width={34}/>
+      <a target="_blank" href={props.web_url} style={{backgroundColor:'#222',padding:'6px 12px',color:"#eee",borderRadius:'3px'}}>Visit</a>
      </div>
   </div>
 )
@@ -72,10 +71,10 @@ export default function Projects() {
         }}/>
 
         <ContentSlicing props={{
-        github:LinkProject.usersAdmin.github,
-        web_url :LinkProject.usersAdmin.web_url,
-        isi : LinkProject.usersAdmin.isi,
-        title : LinkProject.usersAdmin.title
+        github:LinkProject.TodoList.github,
+        web_url :LinkProject.TodoList.web_url,
+        isi : LinkProject.TodoList.isi,
+        title : LinkProject.TodoList.title
         }}/>
 
         <ContentSlicing props={{

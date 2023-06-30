@@ -121,14 +121,12 @@ const Slicing = () => {
         <div className={styles.headerSlicing}>
         <Link href={'https://github.com/erlanggaht/myportof-nextjs13/tree/erlanggaht'} target="_blank">   <StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
         </div>
-        <Link href={'https://portofolio-erlanggaht.vercel.app/'} target="_blank">  <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>All Kinds Of Form Styles And Frontend Validations</h2></Link>
-        <p className={styles.textSlicing}>Slicing web design is suitable for health companies or others. it's made with nextJS13 and tailwinds for the design</p>
+        <Link href={'https://portofolio-erlanggaht.vercel.app/'} target="_blank">  <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Dark And Light Theme Portfolio Pages</h2></Link>
+        <p className={styles.textSlicing}>Slicing web design is suitable for personal web or other. it's built with nextJS13 and tailwinds for design</p>
         <div style={{display:"flex",gap:"1rem",margin:'10px 0 0 0',position:"absolute",bottom:'8px'}}>
          <StaticImage src="../images/tailwinds.svg" alt="tailwinds" height={34} width={34}/>
          <StaticImage src="../images/nextjs.svg" alt="nextjs" height={34} width={34} />
-         <StaticImage src="../images/mysql.svg" alt="mysql" height={34} width={34}/>
-         <span style={{display:'inline-block',marginTop:"5px",color:'#555'}}>Formik</span>
-         <span style={{display:'inline-block',marginTop:"5px",color:'#555'}}>Yup</span>
+         <StaticImage src="../images/mongo.svg" alt="mysql" height={34} width={34}/>
          </div>
       </div>
       
