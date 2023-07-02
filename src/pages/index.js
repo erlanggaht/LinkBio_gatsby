@@ -157,13 +157,13 @@ const IndexPage = () => {
       </div>
         <div style={{display:"flex",alignItems:'flex-start',flexDirection:"column",justifyContent:"center"}}> 
         <h1 className={styles.titleHead}>Hey, I'm Erlangga Hidayatullah.</h1>
-        <span style={{fontWeight:"300",paddingLeft:"3px"}}className={styles.descriptionHeader}>Web Developer and Full-stack Developer</span>
+        <span style={{fontWeight:"300",paddingLeft:"3px"}}className={styles.descriptionHeader}>Sofware Enginer and Web Full-stack Developer</span>
         <TechStack/>
         </div>
       </div>
       <div>
         <div style={{margin:"3rem 0"}}>
-      <h3 className={styles.titleH3}><StaticImage src="../images/circle.svg" height={17} width={17} style={{margin:"3px 0px 0 0"}} alt="circle"/> Social Links</h3>
+      <h3 className={styles.titleH3}><StaticImage  src="../images/circle.svg" height={17} width={17} style={{margin:"3px 0px 0 0"}} alt="circle"/> Social Links</h3>
       <SocialMedia/>
       </div>
       <div style={{margin:"8rem 0"}}>
