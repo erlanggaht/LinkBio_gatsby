@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import auth,{ provider } from '../config/firebase'
+import { provider } from '../config/firebase'
 import { getAuth, signInWithEmailAndPassword,signInWithPopup,GithubAuthProvider } from "firebase/auth";
 import {v4 as uuidv4} from 'uuid'
 import { navigate } from "gatsby";

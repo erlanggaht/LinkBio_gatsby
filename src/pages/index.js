@@ -188,5 +188,12 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Erlangga Hidayatullah</title>
+export const Head = () =>  {
+  return (
+    <>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.svg"></link>
+     <title>Erlangga Hidayatullah</title>
+    </>
+  )
+}
 

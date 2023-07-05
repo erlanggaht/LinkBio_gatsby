@@ -1,34 +1,9 @@
 import * as React from "react"
 import * as styles from '../style.module.css'
 import { StaticImage } from "gatsby-plugin-image"
+import LinkProject from "../LinkProjects/link_projects"
 
-
-const LinkProject = {
-  bacaquran : {
-    web_url : 'https://bacaquran-v2.vercel.app/',
-    github : 'https://github.com/erlanggaht/WebQuranV2/tree/erlanggaht',
-    isi : "Let's read the Koran while in the grip of a digital gadget.",
-    title : "Digital Reading Quran",
-  },
-  ytDownloader : {
-    web_url : 'https://youtubedownload.vercel.app/',
-    github : 'https://github.com/erlanggaht/ytdownloader-vercel/tree/main',
-    isi : "download youtube videos free. built with vite preact. and wait for the next display I will fix it.",
-    title : "Youtube Video Download"
-  },
-  TodoList : {
-    web_url : 'https://todo-mylist.vercel.app/',
-    github : 'https://github.com/erlanggaht/todolist.vue/',
-    isi : "Todo list application with storage features, search lists, and an attractive appearance. made with vite + vue.",
-    title : "To-Do List Application"
-  },
-  seblaks : {
-    web_url : 'https://seblaks.vercel.app/',
-    github : 'https://github.com/erlanggaht/web_seblak/tree/erlanggaht',
-    isi : "The spicy food website, Seblak, is made using NextJS and DaisyUI technology and auth from Firebase ",
-    title : "Seblak Food Website"
-  }
-}
+const LinkProjects = LinkProject
 
 function ContentSlicing ({props}) {
 return (
@@ -52,40 +27,27 @@ return (
 export default function Projects() {
   
   return (
+    <>
+    <title>Projects</title>
     <div className={styles.layout}>
       <h1>My Project</h1>
       <div className={styles.slicing}>
        
-       <ContentSlicing props={{
-        github:LinkProject.bacaquran.github,
-        web_url :LinkProject.bacaquran.web_url,
-        isi : LinkProject.bacaquran.isi,
-        title : LinkProject.bacaquran.title
-        }}/>
+       {LinkProjects.map((m,i) => {
+          console.log(m.github)
+           return <ContentSlicing key={i} props={{
+            github:m.github,
+            web_url :m.web_url,
+            isi : m.isi,
+            title : m.title
+            }}/>
+         
+       })}
 
-        <ContentSlicing props={{
-        github:LinkProject.ytDownloader.github,
-        web_url :LinkProject.ytDownloader.web_url,
-        isi : LinkProject.ytDownloader.isi,
-        title : LinkProject.ytDownloader.title
-        }}/>
-
-        <ContentSlicing props={{
-        github:LinkProject.TodoList.github,
-        web_url :LinkProject.TodoList.web_url,
-        isi : LinkProject.TodoList.isi,
-        title : LinkProject.TodoList.title
-        }}/>
-
-        <ContentSlicing props={{
-        github:LinkProject.seblaks.github,
-        web_url :LinkProject.seblaks.web_url,
-        isi : LinkProject.seblaks.isi,
-        title : LinkProject.seblaks.title
-        }}/>
         
       </div>
       </div>
+      </>
     )
   
   

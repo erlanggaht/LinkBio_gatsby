@@ -132,6 +132,7 @@ export default function Guestbook() {
 
   return (
     <>
+    <title>Guestbook</title>
     <div className="layout_guestbook">
       <h1 className="title_guestbook">Guestbook</h1>
       <form onSubmit={(e) => addComment(e)} className="forms_guest">
