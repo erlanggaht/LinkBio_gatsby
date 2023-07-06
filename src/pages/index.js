@@ -137,14 +137,20 @@ const Slicing = () => {
 const IndexPage = () => {
   const [loading,setLoading] = React.useState(true)
 
-  React.useEffect(() =>{
-    setTimeout(()=>{
-      setLoading(false)
-     },1500)
-     return () => {
-      setLoading(true)
-     }
-  },[])
+  // React.useEffect(() =>{
+  //   setTimeout(()=>{
+  //     setLoading(false)
+  //    },1500)
+  //    return () => {
+  //     setLoading(true)
+  //    }
+  // },[])
+
+  document.onreadystatechange = function () {
+    console.log('readyyyy')
+    setLoading(false)
+  }
+  
   return (
     <>
  {loading ? <LoadingPage/> : 
