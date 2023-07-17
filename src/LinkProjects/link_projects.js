@@ -1,10 +1,18 @@
 const LinkProject = [
+
   // BacaQuran
   {
     web_url: "https://bacaquran-v2.vercel.app/",
     github: "https://github.com/erlanggaht/WebQuranV2/tree/erlanggaht",
     isi: "Let's read the Koran while in the grip of a digital gadget.",
     title: "Digital Reading Quran",
+  },
+
+  {
+    web_url: "https://erlanggaht93.vercel.app/",
+    github: "https://github.com/erlanggaht/catatan-sumbangan/",
+    isi: "Slicing web design is suitable for personal web or other. it's built with nextJS13 and tailwinds for design",
+    title: "Dark And Light Theme Portfolio Pages",
   },
 
   // Youtube Download
@@ -42,6 +50,12 @@ const LinkProject = [
     github: "https://github.com/erlanggaht/resep-asik.vue/",
     isi: "Find lots of food recipes. This website is made with Vuejs + Bootstrap css library ",
     title: "Food Recipes",
+  },
+  {
+    web_url: "https://catatan-sumbangan.vercel.app/",
+    github: "https://github.com/erlanggaht/catatan-sumbangan/",
+    isi: "Donation record web. write receipts and expenses with the CRUD system and display them in the table. it's built with vuejs + postgresql",
+    title: "Donation Record",
   },
 ];
 

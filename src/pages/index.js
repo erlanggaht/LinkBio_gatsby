@@ -121,7 +121,7 @@ const Slicing = () => {
         <div className={styles.headerSlicing}>
         <Link href={'https://github.com/erlanggaht/myportof-nextjs13/tree/erlanggaht'} target="_blank">   <StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
         </div>
-        <Link href={'https://portofolio-erlanggaht.vercel.app/'} target="_blank">  <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Dark And Light Theme Portfolio Pages</h2></Link>
+        <Link href={'https://erlanggaht93.vercel.app/'} target="_blank">  <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Dark And Light Theme Portfolio Pages</h2></Link>
         <p className={styles.textSlicing}>Slicing web design is suitable for personal web or other. it's built with nextJS13 and tailwinds for design</p>
         <div style={{display:"flex",gap:"1rem",margin:'10px 0 0 0',position:"absolute",bottom:'8px'}}>
          <StaticImage src="../images/tailwinds.svg" alt="tailwinds" height={34} width={34}/>
@@ -129,6 +129,8 @@ const Slicing = () => {
          <StaticImage src="../images/mongo.svg" alt="mysql" height={34} width={34}/>
          </div>
       </div>
+
+      
       
     </div>
   )
@@ -137,23 +139,18 @@ const Slicing = () => {
 const IndexPage = () => {
   const [loading,setLoading] = React.useState(true)
 
-  // React.useEffect(() =>{
-  //   setTimeout(()=>{
-  //     setLoading(false)
-  //    },1500)
-  //    return () => {
-  //     setLoading(true)
-  //    }
-  // },[])
-
-  document.onreadystatechange = function () {
-    console.log('readyyyy')
-    setLoading(false)
-  }
+  React.useEffect(() => {
+    document.onreadystatechange = function () {
+      console.log('readyyyy')
+      setLoading(false)
+    }
+  })
+ 
+ 
   
   return (
     <>
- {loading ? <LoadingPage/> : 
+ {!loading ? <LoadingPage/> : 
 <main className={styles.layout}>
 
     <div>
