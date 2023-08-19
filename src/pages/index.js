@@ -10,7 +10,7 @@ import Layout from "./layout"
 const SocialMedia = () => {
 return  <div className={styles.socialmedia}>
 
-<a href="https://www.facebook.com/erlangga.hidayatullah.94" target="_blank">
+<a href="https://www.facebook.com/erlangga.hidayatullah.94" target="_blank"  without rel="noreferrer">
 <div className={styles.socialmedia_img}>
   <StaticImage src="../images/facebook.svg" alt='facebook'
 width={60}
@@ -20,7 +20,7 @@ height={60}
 </div>
 </a>
 
-<a href="https://instagram.com/erlanggaht93/" target="_blank">
+<a href="https://instagram.com/erlanggaht93/" target="_blank" without rel="noreferrer">
 <div className={styles.socialmedia_img}><StaticImage src="../images/instagram2.svg" alt='instagram'
 width={60}
 height={60}
@@ -30,7 +30,7 @@ height={60}
 </div>
 </a>
  
-<a href="https://github.com/erlanggaht/" target="_blank">
+<a href="https://github.com/erlanggaht/" target="_blank" without rel="noreferrer">
 <div className={styles.socialmedia_img}><StaticImage src="../images/github_black.svg" alt='githubme'
 width={60}
 height={60}
@@ -39,7 +39,7 @@ height={60}
 </div>
 </a>
 
-<a href="https://bitbucket.org/erlanggaht/" target="_blank">
+<a href="https://bitbucket.org/erlanggaht/" target="_blank" without rel="noreferrer">
 <div className={styles.socialmedia_img}><StaticImage src="../images/bitbucket2.svg" alt='bitbucket'
 width={60}
 height={60}
@@ -49,7 +49,7 @@ height={60}
 </a>
 
 <a href="https://medium.com/@erlanggahidayat.md
-" target="_blank">
+" target="_blank" without rel="noreferrer">
 <div className={styles.socialmedia_img}><StaticImage src="../images/medium.svg" alt='instagram'
 width={60}
 height={60}
@@ -91,11 +91,11 @@ const Slicing = () => {
     <div className={styles.slicing}>
       <div className={styles.contentSlicing}>
       <div style={{display:"flex",alignItems:'center',gap:'1rem'}}>
-      <Link href={'https://github.com/erlanggaht/landing-page-nextjs13/tree/erlanggaht'} target="_blank"  ><StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
+      <Link href={'https://github.com/erlanggaht/landing-page-nextjs13/tree/erlanggaht'} target="_blank" without rel="noreferrer"  ><StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
         </div>
         <div className={styles.headerSlicing}>
       
-      <Link href={'https://landingpage-erlanggaht.vercel.app/'} target="_blank"> <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Simple White Landing Page</h2></Link> 
+      <Link href={'https://landingpage-erlanggaht.vercel.app/'} target="_blank" without rel="noreferrer"> <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Simple White Landing Page</h2></Link> 
       </div>
         <p className={styles.textSlicing}>Slicing web design is suitable for health companies or others. it's made with nextJS13 and tailwinds for the design</p>
         <div style={{display:"flex",gap:"1rem",margin:'10px 0 0 0',position:"absolute",bottom:'8px'}}>
@@ -107,9 +107,9 @@ const Slicing = () => {
       <div className={styles.contentSlicing}>
         <div className={styles.headerSlicing}>
         <div></div>
-        <Link href={'https://github.com/erlanggaht/myportof-nextjs13/tree/erlanggaht'} target="_blank">   <StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
+        <Link href={'https://github.com/erlanggaht/myportof-nextjs13/tree/erlanggaht'} target="_blank" without rel="noreferrer">   <StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
         </div>
-        <Link href={'https://portofolio-erlanggaht.vercel.app/'} target="_blank"> <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Semi Dark Portofolio Page</h2></Link>
+        <Link href={'https://portofolio-erlanggaht.vercel.app/'} target="_blank" without rel="noreferrer"> <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Semi Dark Portofolio Page</h2></Link>
         <p className={styles.textSlicing}>Slicing web design portfolio is suitable for personal or other websites. it's made with nextJS13 and tailwinds with animations not burdening the client </p>
         <div style={{display:"flex",gap:"1rem",margin:'10px 0 0 0',position:"absolute",bottom:'8px'}}>
          <StaticImage src="../images/tailwinds.svg" alt="tailwinds" height={34} width={34}/>
@@ -119,9 +119,9 @@ const Slicing = () => {
       
       <div className={styles.contentSlicing}>
         <div className={styles.headerSlicing}>
-        <Link href={'https://github.com/erlanggaht/myportof-nextjs13/tree/erlanggaht'} target="_blank">   <StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
+        <Link href={'https://github.com/erlanggaht/myportof-nextjs13/tree/erlanggaht'} target="_blank" without rel="noreferrer">   <StaticImage src="../images/github.svg" height={50} width={50} style={{opacity:'0.7'}} className={styles.GitBranch}/></Link>
         </div>
-        <Link href={'https://erlanggaht93.vercel.app/'} target="_blank">  <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Dark And Light Theme Portfolio Pages</h2></Link>
+        <Link href={'https://erlanggaht93.vercel.app/'} target="_blank" without rel="noreferrer">  <h2 className={styles.headerTitleSlicing} style={{margin:'3px 0'}}>Dark And Light Theme Portfolio Pages</h2></Link>
         <p className={styles.textSlicing}>Slicing web design is suitable for personal web or other. it's built with nextJS13 and tailwinds for design</p>
         <div style={{display:"flex",gap:"1rem",margin:'10px 0 0 0',position:"absolute",bottom:'8px'}}>
          <StaticImage src="../images/tailwinds.svg" alt="tailwinds" height={34} width={34}/>
@@ -140,6 +140,7 @@ const IndexPage = () => {
   const [loading,setLoading] = React.useState(true)
 
   React.useEffect(() => {
+    
     document.onreadystatechange = function () {
       console.log('readyyyy')
       setLoading(false)
