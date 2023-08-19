@@ -9,7 +9,6 @@ import Layout from "./layout"
 
 const SocialMedia = () => {
 return  <div className={styles.socialmedia}>
-
 <a href="https://www.facebook.com/erlangga.hidayatullah.94" target="_blank"  without rel="noreferrer">
 <div className={styles.socialmedia_img}>
   <StaticImage src="../images/facebook.svg" alt='facebook'
