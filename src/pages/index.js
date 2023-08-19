@@ -144,7 +144,7 @@ const IndexPage = () => {
       console.log('readyyyy')
       setLoading(false)
     }
-  })
+  },[])
  
  
   
